@@ -4,6 +4,7 @@ import Nav from "./Components/Nav/Nav";
 import Home from "./Pages/Home/Home";
 import Gallery from "./Pages/Gallery/Gallery";
 import About from "./Pages/About/About";
+import Footer from "./Components/Footer/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,5 +1,9 @@
 @import "./Components/Card/Card.scss";
-
+@import "./Components/Nav/Nav.scss";
+@import "./Pages/Home/Home.scss";
+@import "./Components/Footer/Footer.scss";
+@import "./Pages/Gallery/Gallery.scss";
+@import "./Components/Blog/Blog.scss";
 .App {
   font-family: DM Sans;
   text-align: center;
@@ -10,12 +14,6 @@ body{
   color: whitesmoke;
 }
 
-.Gallery{
-  .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
 
-}
+
+
