@@ -3,15 +3,18 @@ import Card from "../../Components/Card/Card";
 
 
 const Gallery = () => {
+
+
+
   return (
     <div className="Gallery">
       <h3>Gallery</h3>
       <p>This is gallery</p>
-      <>
+      <div className="container">
       <Card />
       <Card />
       <Card />
-      </>
+      </div>
       
     </div>
   );

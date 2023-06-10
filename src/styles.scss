@@ -9,3 +9,13 @@ body{
   background:  black;
   color: whitesmoke;
 }
+
+.Gallery{
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}

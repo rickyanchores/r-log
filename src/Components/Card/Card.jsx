@@ -7,6 +7,7 @@ const Card = () => {
         <>
           <h3>Card</h3>
           <p>This Card</p>
+          <button className="btn">view</button>
         </>
     </div>
   )
